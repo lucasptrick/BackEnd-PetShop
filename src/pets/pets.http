@@ -1,0 +1,43 @@
+### Create Pet - C
+POST http://localhost:3000/pets
+Content-Type: application/json
+
+# Fred - Dog
+# {
+#     "name": "Fredinho",
+#     "dono": "Lucasptrick",
+#     "telefone": "(81)98667-8022",
+#     "animal": "CACHORRO",
+#     "raca": "PrLabrador",
+#     "dateOfBirth": "2014-11-01"
+# }
+
+# Nick - Cat
+# {
+#     "name": "Nick",
+#     "dono": "Lucasptrick",
+#     "telefone": "(81)98667-8022",
+#     "animal": "GATO",
+#     "raca": "Manes",
+#     "dateOfBirth": "2022-05-11"
+# }
+
+
+### Get Pet - R
+GET http://localhost:3000/pets/1
+
+### List Pets - R
+GET http://localhost:3000/pets
+
+
+### Update Pet - U
+PATCH http://localhost:3000/pets/1
+Content-Type: application/json
+
+{
+    "name": "Frederico"
+}
+
+
+### Delete Pet - D
+DELETE  http://localhost:3000/pets/1
