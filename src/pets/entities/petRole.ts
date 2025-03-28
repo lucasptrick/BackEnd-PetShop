@@ -1,4 +1,4 @@
 export enum PetRole {
-  CACHORRO = "CACHORRO",
-  GATO = "GATO",
-  }
+    CACHORRO = "CACHORRO",
+    GATO = "GATO",
+    }
